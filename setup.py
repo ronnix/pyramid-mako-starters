@@ -16,9 +16,11 @@ setup(
     url='https://github.com/ronnix/pyramid-mako-starters',
     description='Pyramid project scaffolds using Mako templates',
     long_description=README + '\n\n' + CHANGES,
+    license='BSD',
     classifiers=[
         'Framework :: Pyramid',
         'Intended Audience :: Developers',
+        'License :: OSI Approved :: BSD License',
         'Programming Language :: Python',
         'Topic :: Internet :: WWW/HTTP',
         'Topic :: Internet :: WWW/HTTP :: WSGI',
