@@ -13,6 +13,7 @@ setup(
     version='0.1.1',
     author='Ronan Amicel',
     author_email='ronan.amicel@gmail.com',
+    url='https://github.com/ronnix/pyramid-mako-starters',
     description='Pyramid project scaffolds using Mako templates',
     long_description=README + '\n\n' + CHANGES,
     packages=find_packages(),
