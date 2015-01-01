@@ -10,10 +10,10 @@ with open(os.path.join(here, 'CHANGES.txt')) as f:
 
 setup(
     name='pyramid_mako_starters',
-    version='0.1.0',
+    version='0.1.1',
     author='Ronan Amicel',
     author_email='ronan.amicel@gmail.com',
-    description='Pyramid scaffolds using Mako templates',
+    description='Pyramid project scaffolds using Mako templates',
     long_description=README + '\n\n' + CHANGES,
     packages=find_packages(),
     include_package_data=True,
