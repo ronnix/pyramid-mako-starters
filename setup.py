@@ -10,7 +10,7 @@ with open(os.path.join(here, 'CHANGES.txt')) as f:
 
 setup(
     name='pyramid_mako_starters',
-    version='0.1.1',
+    version='0.1.2',
     author='Ronan Amicel',
     author_email='ronan.amicel@gmail.com',
     url='https://github.com/ronnix/pyramid-mako-starters',
