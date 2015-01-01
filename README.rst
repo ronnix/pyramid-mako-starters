@@ -1,19 +1,19 @@
 pyramid_mako_starters
 =====================
 
-This package provides Pyramid project scaffolds based on `Mako templates <http://www.makotemplates.org/>`_
-
-
-Included scaffolds
-------------------
-
-* ``mako_starter``: Pyramid starter project with Mako templates
-* ``mako_alchemy``: Pyramid SQLAlchemy project with Mako templates
-
+This package provides `Pyramid <http://docs.pylonsproject.org/en/latest/docs/pyramid.html>`_ project scaffolds based on `Mako templates <http://www.makotemplates.org/>`_.
 
 Getting Started
 ---------------
 
+::
+
     $ pip install pyramid_mako_starters
     $ pcreate --list
-    $ pcreate --scaffold=starter_mako <project_name>
+    $ pcreate --scaffold=<scaffold_name> <project_name>
+
+Included scaffolds
+------------------
+
+* ``alchemy_mako``: Pyramid SQLAlchemy project with Mako templates
+* ``starter_mako``: Pyramid starter project with Mako templates
