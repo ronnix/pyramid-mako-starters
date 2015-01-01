@@ -16,6 +16,13 @@ setup(
     url='https://github.com/ronnix/pyramid-mako-starters',
     description='Pyramid project scaffolds using Mako templates',
     long_description=README + '\n\n' + CHANGES,
+    classifiers=[
+        'Framework :: Pyramid',
+        'Intended Audience :: Developers',
+        'Programming Language :: Python',
+        'Topic :: Internet :: WWW/HTTP',
+        'Topic :: Internet :: WWW/HTTP :: WSGI',
+    ],
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
